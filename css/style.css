@@ -207,7 +207,7 @@ body {
       color: #342d65; }
   #Books .owl-carousel .item .slider-content {
     background: #fff;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     box-shadow: -3px 3px 20px rgba(0, 0, 0, 0.1), 3px 3px 20px rgba(0, 0, 0, 0.1); }
     #Books .owl-carousel .item .slider-content a {
       text-decoration: none; }
@@ -217,7 +217,7 @@ body {
         margin: auto;
         padding: 20px 0;
         display: block;
-        border-radius: 12%; }
+        border-radius: 5%; }
       #Books .owl-carousel .item .slider-content a .slider-title {
         font-size: 20px;
         color: #34315d;
