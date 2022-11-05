@@ -358,11 +358,10 @@ body {
           color: #fff; }
   #footer small {
     font-size: .875em; }
-
 /**********************************/
 /***** Layout & Section Title *****/
 /**********************************/
-.container {
+.container1 {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -437,13 +436,13 @@ body {
     }
 }
 
-.section-title {
+.section-title1 {
     width: 100%;
     text-align: center;
     padding: 45px 0 30px 0;
 }
 
-.section-title::after {
+.section-title1::after {
     position: absolute;
     content: "";
     width: 50px;
@@ -452,7 +451,7 @@ body {
     background: #353535;
 }
 
-.section-title h1 {
+.section-title1 h1 {
     color: #353535;
     font-size: 50px;
     letter-spacing: 5px;
@@ -460,14 +459,14 @@ body {
 }
 
 @media(max-width: 767.98px) {
-    .section-title h1 {
+    .section-title1 h1 {
         font-size: 40px;
         letter-spacing: 3px;
     }
 }
 
 @media(max-width: 567.98px) {
-    .section-title h1 {
+    .section-title1 h1 {
         font-size: 30px;
         letter-spacing: 2px;
     }
