@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                background-color: #32312f;
+                font-family: sans-serif;                
+            }
+            .table1-container2{
+                padding: 0 10%;
+                margin: 40px auto 0;
+            }
+            .heading1{
+                font-size: 40px;
+                text-align: center;
+                color: #3c3f44;
+                margin-bottom: 40px;
+            }
+            .table1{
+                width: 100%;
+                border-collapse: collapse;
+            }
+            .table1 thead{
+                background-color: #ee2828;
+            }
+            .table1 thead tr th{
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: 0.35px;
+                color: #FFFFFF;
+                opacity: 1;
+                padding: 12px;
+                vertical-align: top;
+                border: 1px solid #dee2e685;
+            }
+            .table1 tbody tr td{
+                 font-size: 14px;
+                 letter-spacing: 0.35px;
+                 font-weight: normal;
+                 color: #f1f1f1;
+                 background-color: #3c3f44;
+                 padding: 8px;
+                 text-align: center;
+                 border: 1px solid #dee2e685;
+            }
+            .table1 tbody tr td .btn{
+                width: 100px;
+                text-decoration: none;
+                line-height: 20px;
+                display: inline-block;
+                background-color: #FF1046;
+                font-weight: medium;
+                color: #FFFFFF;
+                text-align: center;
+                vertical-align: middle;
+                user-select: none;
+                border: 1px solid transparent;
+                font-size: 14px;
+                opacity: 1;
+            }
+            @media (max-width: 768px){
+                .table1 thead{
+                    display: none;
+                }
+                .table1, .table1 tbody,.table1 tr,.table1 td{
+                    display: block;
+                    width: 100%;
+                }
+                .table1 tr{
+                    margin-bottom: 15px;
+                }
+                .table1 tbody tr td{
+                    text-align: center;
+                    padding-left: 50%;
+                    position: relative;
+                }
+                .table1 td::before{
+                    content: attr(data-label);
+                    position: absolute;
+                    left: 0;
+                    width: 50%;
+                    padding-left: 15px;
+                    font-weight: 600;
+                    font-size: 14px;
+                    text-align: left; 
+                }
+            }
+
+        </style>
+          <!--Meta Tags-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="./img/index.png">
+  <!--Title-->
+  <title>Mason-Docs</title>
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Barlow:wght@400;500;700;800;900&display=swap" rel="stylesheet"> 
+  <!--Font Awesome Files-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <!--CSS Files-->
+  <link rel="stylesheet" href="C:/Users/User/Desktop/webapp/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="C:/Users/User/Desktop/webapp/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="C:/Users/User/Desktop/webapp/css/bootstrap.css">
+  <link rel="stylesheet" href="C:/Users/User/Desktop/webapp/css/uikit.min.css">
+  <link rel="stylesheet" href="C:/Users/User/Desktop/webapp/css/navbar-fixed.css">
+  <link rel="stylesheet" href="C:/Users/User/Desktop/webapp/css/aos.css">
+  <link rel="stylesheet" href="C:/Users/User/Desktop/webapp/css/style.css">
+    </head>
+    <body>
+      <!--Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white" uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+    <div class="container">
+    <a class="navbar-brand" href="https://masondocs.github.io/">
+      <img src="./img/logo.png" style="height: 2rem;" class="img-fluid" alt="Mason">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            আমাদের কার্যক্রম
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">bdjso</a>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav mt-0 ml-auto">
+        <li class="nav-item d-none d-lg-block">
+          <a href="english.html" class="nav-link">
+            <div class="lang-btn">
+             <h6>EN</h6>
+            <span>বাং</span>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="school.html" class="nav-link menu-btn1"><i class="fa fa-download"></i>মেসন সাইন্স ফর স্কুল</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://clubmason.com/" class="nav-link menu-btn2"><i class="fas fa-sign-in-alt"></i> ক্লাব-মেসন</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+
+        <div class="table1-container2">
+            <h1 class="heading1">Biomission 1.0</h1>
+            <table class="table1">
+                <thead>
+                    <tr>
+                        <th>Chapter Name</th>
+                        <th>Instructor</th>
+                        <th>Date</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Chapter Name">কোষ বিভাজন</td>
+                        <td data-label="instructor">Hasnat Shuvro</td>
+                        <td data-label="Date">28 Oct 2021</td>
+                        <td data-label="Link"><a href="#" class="btn">Explore</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Chapter Name">নগ্নবীজী ও আবৃতবীজী উদ্ভিদ</td>
+                        <td data-label="instructor">Hasnat Shuvro</td>
+                        <td data-label="Date">28 Oct 2021</td>
+                        <td data-label="Link"><a href="#" class="btn">Explore</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Chapter Name">টিস্যু ও টিস্যুতন্ত্র</td>
+                        <td data-label="instructor">Hasnat Shuvro</td>
+                        <td data-label="Date">28 Oct 2021</td>
+                        <td data-label="Link"><a href="#" class="btn">Explore</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Chapter Name">পরিপাক ও শোষণ</td>
+                        <td data-label="instructor">Hasnat Shuvro</td>
+                        <td data-label="Date">28 Oct 2021</td>
+                        <td data-label="Link"><a href="#" class="btn">Explore</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Chapter Name">রক্ত ও সংবহন</td>
+                        <td data-label="instructor">Hasnat Shuvro</td>
+                        <td data-label="Date">28 Oct 2021</td>
+                        <td data-label="Link"><a href="#" class="btn">Explore</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Chapter Name">জিনতত্ত্ব ও বিবর্তন</td>
+                        <td data-label="instructor">Hasnat Shuvro</td>
+                        <td data-label="Date">28 Oct 2021</td>
+                        <td data-label="Link"><a href="#" class="btn">Explore</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            <br><br><br>
+    </body>
+</html>
